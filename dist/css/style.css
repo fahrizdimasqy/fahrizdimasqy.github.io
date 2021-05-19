@@ -200,6 +200,15 @@ nav h5 {
     margin-right: auto;
 }
 
+#tools .card h5 {
+    font-weight: bold;
+    color: #45505b !important;
+}
+
+#toolf .card p {
+    color: #45505b !important;
+}
+
 @media (max-width: 576px) {
     nav a {
         color: white;
@@ -240,4 +249,10 @@ nav h5 {
     #tools .card {
         margin-bottom: 20px;
     }
+
+    /*#tools .card img {
+    display: block;
+    margin-left: auto;
+    margin-right: auto;
+}*/
 }
