@@ -2,6 +2,14 @@ body {
     font-family: "Montserrat", sans-serif;
 }
 
+.container {
+    padding: 0 !important;
+}
+
+#app section {
+    padding: 50px;
+}
+
 nav {
     text-transform: uppercase;
 }
@@ -31,9 +39,6 @@ nav h5 {
     box-shadow: 0 0 40px 5px rgba(37, 73, 214, 0.18);
 }
 
-.hero-shadow .intro {
-    margin-left: -2.7%;
-}
 
 .main {
     color: white;
@@ -113,6 +118,25 @@ nav h5 {
     border: 1px solid #007bff;
 }
 
+.resume .resume-item {
+    padding: 0 0 10px 20px;
+    margin-top: -2px;
+    border-left: 2px solid #74b9ff;
+    position: relative;
+}
+
+.resume .resume-item::before {
+    content: "";
+    position: absolute;
+    width: 16px;
+    height: 16px;
+    border-radius: 50px;
+    left: -9px;
+    top: 0;
+    background: #fff;
+    border: 2px solid #74b9ff;
+}
+
 .clients {
     background-color: #343a40;
     min-height: 500px;
@@ -132,30 +156,11 @@ nav h5 {
     border-radius: 50px;
 }
 
-.service {
+#certificate {
     background-color: #00023B;
     color: white;
-    padding: 25px;
-}
-
-.service .card-deck .deck1 {
-    background-color: #e2a599;
-    color: white;
-}
-
-.service .card-deck .deck2 {
-    background-color: #715f69;
-    color: white;
-}
-
-.service .card-deck .deck3 {
-    background-color: #e45447;
-    color: white;
-}
-
-.service .card-deck .deck4 {
-    background-color: #90acd1;
-    color: white;
+    height: 600px;
+    width: 100%;
 }
 
 .portfolio {
