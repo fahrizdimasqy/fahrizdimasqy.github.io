@@ -4,10 +4,15 @@ body {
 
 .container {
     padding: 0 !important;
+    margin: 0;
 }
 
 #app section {
     padding: 50px;
+}
+
+#app {
+    position: relative;
 }
 
 nav {
@@ -232,6 +237,12 @@ nav h5 {
         min-height: 500px;
         width: 90%;
         margin-left: 5%;
+    }
+
+    #certificate {
+
+        height: 750px;
+
     }
 
     .hero-shadow .intro {
