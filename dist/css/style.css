@@ -168,6 +168,14 @@ nav h5 {
   width: 100%;
 }
 
+hr {
+  width: 4%;
+  border: 6px dotted #11999E;
+  border-bottom: none;
+  /* border-top: none; */
+  margin: 100px auto;
+}
+
 .portfolio {
   /* background-color: #00023B; */
   color: white;
@@ -183,7 +191,9 @@ nav h5 {
   line-height: 2;
 }
 
-.skill h2 {}
+.skill h2 {
+  text-align: center !important;
+}
 
 .skill .frontend-img {
   width: 25%;
@@ -225,6 +235,11 @@ nav h5 {
   margin-right: auto;
 }
 
+h2 {
+  font-size: 2.5rem;
+  font-weight: bold;
+}
+
 #tools .card h5 {
   font-weight: bold;
   color: #45505b !important;
@@ -260,6 +275,10 @@ nav h5 {
 
   #certificate {
     height: 750px;
+  }
+
+  #certificate h2 {
+    text-align: center;
   }
 
   .hero-shadow .intro {
