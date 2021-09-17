@@ -37,6 +37,10 @@ nav h5 {
   color: white;
 }
 
+.nav .btn-warning {
+  height: 35px;
+}
+
 .hero-shadow {
   margin: 40px auto;
   border-radius: 10px;
@@ -198,6 +202,12 @@ hr {
 .skill .frontend-img {
   width: 25%;
   margin-right: 30px;
+  float: left;
+}
+
+.skill .ui-img {
+  width: 25%;
+  float: right;
 }
 
 /*#skill hr {
@@ -260,6 +270,22 @@ h2 {
     border-radius: 0px;
     padding-bottom: 0px;
     box-shadow: 0 0 0px 0px rgba(37, 73, 214, 0.18);
+  }
+
+  .skill-row {
+    width: 100%;
+    /* margin: 100px auto; */
+  }
+
+  .skill .frontend-img {
+    margin-right: 0 auto;
+    /* text-align: center; */
+    /* justify-content: center; */
+  }
+
+  .skill .ui-img {
+    margin-right: 30px;
+    float: none;
   }
 
   .bg-img {
