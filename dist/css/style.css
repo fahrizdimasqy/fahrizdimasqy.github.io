@@ -278,9 +278,10 @@ h2 {
   }
 
   .skill .frontend-img {
-    margin-right: 0 auto;
-    /* text-align: center; */
-    /* justify-content: center; */
+    float: none;
+    margin-bottom: 40px;
+    text-align: center;
+    justify-content: center;
   }
 
   .skill .ui-img {
